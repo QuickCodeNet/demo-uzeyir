@@ -5,12 +5,12 @@ on:
  
 env:
   PROJECT_ID: main-quickcode
-  PROJECT_NAME: demouzeyir
+  PROJECT_NAME: demo-uzeyir
   GAR_LOCATION: europe-west1
-  SERVICE: demouzeyir-transaction-processing-module
+  SERVICE: demo-uzeyir-transaction-processing-module
   REGION: europe-west1
   REPO: main-quickcode-docker-repo
-  DOCKER_IMAGE_NAME: 'demouzeyir_transaction-processing-module_'
+  DOCKER_IMAGE_NAME: 'demo-uzeyir_transaction-processing-module_'
   DOCKER_REPO_NAME: api
   DOCKER_FILE_PATH: 'src/Modules/TransactionProcessingModule/Presentation/QuickCode.DemoUzeyir.TransactionProcessingModule.Api/'
   WIF_PROVIDER: ${{ secrets.WIF_PROVIDER }}

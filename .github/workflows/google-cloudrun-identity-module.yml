@@ -5,12 +5,12 @@ on:
  
 env:
   PROJECT_ID: main-quickcode
-  PROJECT_NAME: demouzeyir
+  PROJECT_NAME: demo-uzeyir
   GAR_LOCATION: europe-west1
-  SERVICE: demouzeyir-identity-module
+  SERVICE: demo-uzeyir-identity-module
   REGION: europe-west1
   REPO: main-quickcode-docker-repo
-  DOCKER_IMAGE_NAME: 'demouzeyir_identity-module_'
+  DOCKER_IMAGE_NAME: 'demo-uzeyir_identity-module_'
   DOCKER_REPO_NAME: api
   DOCKER_FILE_PATH: 'src/Modules/IdentityModule/Presentation/QuickCode.DemoUzeyir.IdentityModule.Api/'
   WIF_PROVIDER: ${{ secrets.WIF_PROVIDER }}

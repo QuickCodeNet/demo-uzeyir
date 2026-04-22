@@ -5,12 +5,12 @@ on:
  
 env:
   PROJECT_ID: main-quickcode
-  PROJECT_NAME: demouzeyir
+  PROJECT_NAME: demo-uzeyir
   GAR_LOCATION: europe-west1
-  SERVICE: demouzeyir-loan-management-module
+  SERVICE: demo-uzeyir-loan-management-module
   REGION: europe-west1
   REPO: main-quickcode-docker-repo
-  DOCKER_IMAGE_NAME: 'demouzeyir_loan-management-module_'
+  DOCKER_IMAGE_NAME: 'demo-uzeyir_loan-management-module_'
   DOCKER_REPO_NAME: api
   DOCKER_FILE_PATH: 'src/Modules/LoanManagementModule/Presentation/QuickCode.DemoUzeyir.LoanManagementModule.Api/'
   WIF_PROVIDER: ${{ secrets.WIF_PROVIDER }}
