@@ -1,0 +1,4 @@
+﻿UPDATE [FEE_TYPES] 
+	SET [IS_ACTIVE] = 0 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_FEE_TYPE_ID

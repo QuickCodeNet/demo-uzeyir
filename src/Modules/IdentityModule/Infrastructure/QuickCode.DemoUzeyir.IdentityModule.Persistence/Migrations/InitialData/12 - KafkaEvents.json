@@ -1,0 +1,1159 @@
+﻿{
+"KafkaEvents": [
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodulesModulesController",
+    "TopicName": "demouzeyir.identity_module.modules_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodulesnameModulesController",
+    "TopicName": "demouzeyir.identity_module.modules_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodulesnameModulesController",
+    "TopicName": "demouzeyir.identity_module.modules_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsdeletemodelswithmodulenamemodelmodulenameModelsController",
+    "TopicName": "demouzeyir.identity_module.models.delete_models_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulemodelsModelsController",
+    "TopicName": "demouzeyir.identity_module.models_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "demouzeyir.identity_module.models_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulemodelsnamemodulenameModelsController",
+    "TopicName": "demouzeyir.identity_module.models_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulepermissiongroupsPermissionGroupsController",
+    "TopicName": "demouzeyir.identity_module.permission_groups_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "demouzeyir.identity_module.permission_groups_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulepermissiongroupsnamePermissionGroupsController",
+    "TopicName": "demouzeyir.identity_module.permission_groups_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodulenameapimethoddefinitionmodulenameApiMethodDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.api_method_definitions.delete_api_method_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionsdeleteapimethoddefinitionswithmodelnameapimethoddefinitionmodelnameApiMethodDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.api_method_definitions.delete_api_method_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsApiMethodDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.api_method_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.api_method_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethoddefinitionskeyApiMethodDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.api_method_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodulenameportalpagedefinitionmodulenamePortalPageDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_definitions.delete_portal_page_definitions_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionsdeleteportalpagedefinitionswithmodelnameportalpagedefinitionmodelnamePortalPageDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_definitions.delete_portal_page_definitions_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsPortalPageDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_definitions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_definitions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpagedefinitionskeyPortalPageDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_definitions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantsclearapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.api_method_access_grants.clear_api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethodaccessgrantsApiMethodAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.api_method_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.api_method_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleapimethodaccessgrantspermissiongroupnameapimethoddefinitionkeyApiMethodAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.api_method_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantsclearportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_access_grants.clear_portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpageaccessgrantsPortalPageAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_access_grants_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_access_grants_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalpageaccessgrantspermissiongroupnameportalpagedefinitionkeypageactionPortalPageAccessGrantsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_access_grants_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodulenameportalmenukeyPortalMenusController",
+    "TopicName": "demouzeyir.identity_module.portal_menus.delete_portal_menu_items_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenusdeleteportalmenuitemswithmodelnameportalmenukeyportalmenunamePortalMenusController",
+    "TopicName": "demouzeyir.identity_module.portal_menus.delete_portal_menu_items_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalmenusPortalMenusController",
+    "TopicName": "demouzeyir.identity_module.portal_menus_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "demouzeyir.identity_module.portal_menus_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleportalmenuskeyPortalMenusController",
+    "TopicName": "demouzeyir.identity_module.portal_menus_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulecolumntypesColumnTypesController",
+    "TopicName": "demouzeyir.identity_module.column_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "demouzeyir.identity_module.column_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulecolumntypesidintColumnTypesController",
+    "TopicName": "demouzeyir.identity_module.column_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletablecomboboxsettingsTableComboboxSettingsController",
+    "TopicName": "demouzeyir.identity_module.table_combobox_settings_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "demouzeyir.identity_module.table_combobox_settings_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletablecomboboxsettingstablenameTableComboboxSettingsController",
+    "TopicName": "demouzeyir.identity_module.table_combobox_settings_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodulenameapimethoddefinitionsmodulenameKafkaEventsController",
+    "TopicName": "demouzeyir.identity_module.kafka_events.clean_kafka_events_with_module_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventscleankafkaeventswithmodelnameapimethoddefinitionsmodelnameKafkaEventsController",
+    "TopicName": "demouzeyir.identity_module.kafka_events.clean_kafka_events_with_model_name_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulekafkaeventsKafkaEventsController",
+    "TopicName": "demouzeyir.identity_module.kafka_events_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "demouzeyir.identity_module.kafka_events_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulekafkaeventstopicnameKafkaEventsController",
+    "TopicName": "demouzeyir.identity_module.kafka_events_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduletopicworkflowsTopicWorkflowsController",
+    "TopicName": "demouzeyir.identity_module.topic_workflows_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "demouzeyir.identity_module.topic_workflows_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduletopicworkflowsidintTopicWorkflowsController",
+    "TopicName": "demouzeyir.identity_module.topic_workflows_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetrolesAspNetRolesController",
+    "TopicName": "demouzeyir.identity_module.asp_net_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "demouzeyir.identity_module.asp_net_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetrolesidAspNetRolesController",
+    "TopicName": "demouzeyir.identity_module.asp_net_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusersAspNetUsersController",
+    "TopicName": "demouzeyir.identity_module.asp_net_users_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "demouzeyir.identity_module.asp_net_users_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusersidAspNetUsersController",
+    "TopicName": "demouzeyir.identity_module.asp_net_users_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiidentitymodulerefreshtokensupdaterefreshtokensrefreshtokentokenRefreshTokensController",
+    "TopicName": "demouzeyir.identity_module.refresh_tokens.update_refresh_tokens_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymodulerefreshtokensRefreshTokensController",
+    "TopicName": "demouzeyir.identity_module.refresh_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "demouzeyir.identity_module.refresh_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymodulerefreshtokensidintRefreshTokensController",
+    "TopicName": "demouzeyir.identity_module.refresh_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetroleclaimsAspNetRoleClaimsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_role_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_role_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetroleclaimsidintAspNetRoleClaimsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_role_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserclaimsAspNetUserClaimsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_claims_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_claims_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserclaimsidintAspNetUserClaimsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_claims_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserloginsAspNetUserLoginsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_logins_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_logins_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserloginsloginproviderproviderkeyAspNetUserLoginsController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_logins_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetuserrolesAspNetUserRolesController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_roles_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_roles_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetuserrolesuseridroleidAspNetUserRolesController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_roles_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleaspnetusertokensAspNetUserTokensController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_tokens_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_tokens_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleaspnetusertokensuseridAspNetUserTokensController",
+    "TopicName": "demouzeyir.identity_module.asp_net_user_tokens_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleauditlogsAuditLogsController",
+    "TopicName": "demouzeyir.identity_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.identity_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiidentitymoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.identity_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmoduleaccountsapproveaccountaccountidintAccountsController",
+    "TopicName": "demouzeyir.account_management_module.accounts.approve_account_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmoduleaccountsfreezeaccountaccountidintAccountsController",
+    "TopicName": "demouzeyir.account_management_module.accounts.freeze_account_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmoduleaccountscloseaccountaccountidintAccountsController",
+    "TopicName": "demouzeyir.account_management_module.accounts.close_account_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmoduleaccountsupdatebalanceaccountidintAccountsController",
+    "TopicName": "demouzeyir.account_management_module.accounts.update_balance_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmoduleaccountsAccountsController",
+    "TopicName": "demouzeyir.account_management_module.accounts_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmoduleaccountsidintAccountsController",
+    "TopicName": "demouzeyir.account_management_module.accounts_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmoduleaccountsidintAccountsController",
+    "TopicName": "demouzeyir.account_management_module.accounts_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmoduleaccounttypesupdateinterestrateaccounttypeidintAccountTypesController",
+    "TopicName": "demouzeyir.account_management_module.account_types.update_interest_rate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmoduleaccounttypesdeactivateaccounttypeidintAccountTypesController",
+    "TopicName": "demouzeyir.account_management_module.account_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmoduleaccounttypesAccountTypesController",
+    "TopicName": "demouzeyir.account_management_module.account_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmoduleaccounttypesidintAccountTypesController",
+    "TopicName": "demouzeyir.account_management_module.account_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmoduleaccounttypesidintAccountTypesController",
+    "TopicName": "demouzeyir.account_management_module.account_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmodulecurrenciesdeactivatecurrencycodeCurrenciesController",
+    "TopicName": "demouzeyir.account_management_module.currencies.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmodulecurrenciesCurrenciesController",
+    "TopicName": "demouzeyir.account_management_module.currencies_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmodulecurrenciesidintCurrenciesController",
+    "TopicName": "demouzeyir.account_management_module.currencies_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmodulecurrenciesidintCurrenciesController",
+    "TopicName": "demouzeyir.account_management_module.currencies_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmoduleaccountstatementsdeletestatementaccountstatementidintAccountStatementsController",
+    "TopicName": "demouzeyir.account_management_module.account_statements.delete_statement_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmoduleaccountstatementsAccountStatementsController",
+    "TopicName": "demouzeyir.account_management_module.account_statements_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmoduleaccountstatementsidintAccountStatementsController",
+    "TopicName": "demouzeyir.account_management_module.account_statements_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmoduleaccountstatementsidintAccountStatementsController",
+    "TopicName": "demouzeyir.account_management_module.account_statements_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmoduleaccountholdersremoveholderaccountholderaccountidintaccountholdercustomeridintAccountHoldersController",
+    "TopicName": "demouzeyir.account_management_module.account_holders.remove_holder_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmoduleaccountholdersAccountHoldersController",
+    "TopicName": "demouzeyir.account_management_module.account_holders_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmoduleaccountholdersaccountidintcustomeridintAccountHoldersController",
+    "TopicName": "demouzeyir.account_management_module.account_holders_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmoduleaccountholdersaccountidintcustomeridintAccountHoldersController",
+    "TopicName": "demouzeyir.account_management_module.account_holders_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmodulecardsactivatecardcardidintCardsController",
+    "TopicName": "demouzeyir.account_management_module.cards.activate_card_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmodulecardsblockcardcardidintCardsController",
+    "TopicName": "demouzeyir.account_management_module.cards.block_card_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmodulecardsreportlostorstolencardidintCardsController",
+    "TopicName": "demouzeyir.account_management_module.cards.report_lost_or_stolen_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmodulecardsCardsController",
+    "TopicName": "demouzeyir.account_management_module.cards_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmodulecardsidintCardsController",
+    "TopicName": "demouzeyir.account_management_module.cards_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmodulecardsidintCardsController",
+    "TopicName": "demouzeyir.account_management_module.cards_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiaccountmanagementmodulecardtypesdeactivatecardtypeidintCardTypesController",
+    "TopicName": "demouzeyir.account_management_module.card_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmodulecardtypesCardTypesController",
+    "TopicName": "demouzeyir.account_management_module.card_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmodulecardtypesidintCardTypesController",
+    "TopicName": "demouzeyir.account_management_module.card_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmodulecardtypesidintCardTypesController",
+    "TopicName": "demouzeyir.account_management_module.card_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiaccountmanagementmoduleauditlogsAuditLogsController",
+    "TopicName": "demouzeyir.account_management_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiaccountmanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.account_management_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiaccountmanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.account_management_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmodulecustomersactivatecustomercustomeridintCustomersController",
+    "TopicName": "demouzeyir.customer_management_module.customers.activate_customer_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmodulecustomerssuspendcustomercustomeridintCustomersController",
+    "TopicName": "demouzeyir.customer_management_module.customers.suspend_customer_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmodulecustomersclosecustomercustomeridintCustomersController",
+    "TopicName": "demouzeyir.customer_management_module.customers.close_customer_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmodulecustomersCustomersController",
+    "TopicName": "demouzeyir.customer_management_module.customers_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmodulecustomersidintCustomersController",
+    "TopicName": "demouzeyir.customer_management_module.customers_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmodulecustomersidintCustomersController",
+    "TopicName": "demouzeyir.customer_management_module.customers_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmodulecustomertypesdeactivatecustomertypeidintCustomerTypesController",
+    "TopicName": "demouzeyir.customer_management_module.customer_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmodulecustomertypesCustomerTypesController",
+    "TopicName": "demouzeyir.customer_management_module.customer_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmodulecustomertypesidintCustomerTypesController",
+    "TopicName": "demouzeyir.customer_management_module.customer_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmodulecustomertypesidintCustomerTypesController",
+    "TopicName": "demouzeyir.customer_management_module.customer_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmoduleaddressessetasprimaryaddressidintaddresscustomeridintAddressesController",
+    "TopicName": "demouzeyir.customer_management_module.addresses.set_as_primary_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmoduleaddressesunsetprimaryaddresscustomeridintAddressesController",
+    "TopicName": "demouzeyir.customer_management_module.addresses.unset_primary_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmoduleaddressesremoveaddressaddressidintaddresscustomeridintAddressesController",
+    "TopicName": "demouzeyir.customer_management_module.addresses.remove_address_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmoduleaddressesAddressesController",
+    "TopicName": "demouzeyir.customer_management_module.addresses_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmoduleaddressesidintAddressesController",
+    "TopicName": "demouzeyir.customer_management_module.addresses_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmoduleaddressesidintAddressesController",
+    "TopicName": "demouzeyir.customer_management_module.addresses_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmodulecontactdetailsmarkasverifiedcontactdetailidintContactDetailsController",
+    "TopicName": "demouzeyir.customer_management_module.contact_details.mark_as_verified_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmodulecontactdetailsremovecontactcontactdetailidintcontactdetailcustomeridintContactDetailsController",
+    "TopicName": "demouzeyir.customer_management_module.contact_details.remove_contact_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmodulecontactdetailsContactDetailsController",
+    "TopicName": "demouzeyir.customer_management_module.contact_details_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmodulecontactdetailsidintContactDetailsController",
+    "TopicName": "demouzeyir.customer_management_module.contact_details_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmodulecontactdetailsidintContactDetailsController",
+    "TopicName": "demouzeyir.customer_management_module.contact_details_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmoduleidentificationdocumentsverifydocumentidentificationdocumentidintIdentificationDocumentsController",
+    "TopicName": "demouzeyir.customer_management_module.identification_documents.verify_document_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmoduleidentificationdocumentsrejectdocumentidentificationdocumentidintIdentificationDocumentsController",
+    "TopicName": "demouzeyir.customer_management_module.identification_documents.reject_document_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmoduleidentificationdocumentsmarkasexpiredidentificationdocumentidintIdentificationDocumentsController",
+    "TopicName": "demouzeyir.customer_management_module.identification_documents.mark_as_expired_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmoduleidentificationdocumentsIdentificationDocumentsController",
+    "TopicName": "demouzeyir.customer_management_module.identification_documents_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmoduleidentificationdocumentsidintIdentificationDocumentsController",
+    "TopicName": "demouzeyir.customer_management_module.identification_documents_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmoduleidentificationdocumentsidintIdentificationDocumentsController",
+    "TopicName": "demouzeyir.customer_management_module.identification_documents_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapicustomermanagementmoduledocumenttypesdeactivatedocumenttypeidintDocumentTypesController",
+    "TopicName": "demouzeyir.customer_management_module.document_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmoduledocumenttypesDocumentTypesController",
+    "TopicName": "demouzeyir.customer_management_module.document_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmoduledocumenttypesidintDocumentTypesController",
+    "TopicName": "demouzeyir.customer_management_module.document_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmoduledocumenttypesidintDocumentTypesController",
+    "TopicName": "demouzeyir.customer_management_module.document_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmodulecustomerrelationshipsremoverelationshipcustomerrelationshipidintCustomerRelationshipsController",
+    "TopicName": "demouzeyir.customer_management_module.customer_relationships.remove_relationship_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmodulecustomerrelationshipsCustomerRelationshipsController",
+    "TopicName": "demouzeyir.customer_management_module.customer_relationships_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmodulecustomerrelationshipsidintCustomerRelationshipsController",
+    "TopicName": "demouzeyir.customer_management_module.customer_relationships_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmodulecustomerrelationshipsidintCustomerRelationshipsController",
+    "TopicName": "demouzeyir.customer_management_module.customer_relationships_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapicustomermanagementmoduleauditlogsAuditLogsController",
+    "TopicName": "demouzeyir.customer_management_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapicustomermanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.customer_management_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapicustomermanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.customer_management_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloanapplicationssubmitapplicationloanapplicationidintLoanApplicationsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_applications.submit_application_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloanapplicationsapproveapplicationloanapplicationidintLoanApplicationsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_applications.approve_application_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloanapplicationsrejectapplicationloanapplicationidintLoanApplicationsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_applications.reject_application_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloanapplicationswithdrawapplicationloanapplicationidintLoanApplicationsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_applications.withdraw_application_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmoduleloanapplicationsLoanApplicationsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_applications_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmoduleloanapplicationsidintLoanApplicationsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_applications_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmoduleloanapplicationsidintLoanApplicationsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_applications_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloanproductsupdateinterestrateloanproductidintLoanProductsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_products.update_interest_rate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloanproductsdeactivateloanproductidintLoanProductsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_products.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmoduleloanproductsLoanProductsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_products_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmoduleloanproductsidintLoanProductsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_products_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmoduleloanproductsidintLoanProductsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_products_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloansupdateoutstandingbalanceloanidintLoansController",
+    "TopicName": "demouzeyir.loan_management_module.loans.update_outstanding_balance_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloansmarkaspaidoffloanidintLoansController",
+    "TopicName": "demouzeyir.loan_management_module.loans.mark_as_paid_off_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmoduleloansmarkasdefaultedloanidintLoansController",
+    "TopicName": "demouzeyir.loan_management_module.loans.mark_as_defaulted_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmoduleloansLoansController",
+    "TopicName": "demouzeyir.loan_management_module.loans_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmoduleloansidintLoansController",
+    "TopicName": "demouzeyir.loan_management_module.loans_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmoduleloansidintLoansController",
+    "TopicName": "demouzeyir.loan_management_module.loans_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmodulerepaymentschedulesmarkaspaidrepaymentscheduleidintRepaymentSchedulesController",
+    "TopicName": "demouzeyir.loan_management_module.repayment_schedules.mark_as_paid_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmodulerepaymentschedulesRepaymentSchedulesController",
+    "TopicName": "demouzeyir.loan_management_module.repayment_schedules_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmodulerepaymentschedulesidintRepaymentSchedulesController",
+    "TopicName": "demouzeyir.loan_management_module.repayment_schedules_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmodulerepaymentschedulesidintRepaymentSchedulesController",
+    "TopicName": "demouzeyir.loan_management_module.repayment_schedules_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmoduleloanpaymentsLoanPaymentsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_payments_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmoduleloanpaymentsidintLoanPaymentsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_payments_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmoduleloanpaymentsidintLoanPaymentsController",
+    "TopicName": "demouzeyir.loan_management_module.loan_payments_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmodulecollateralsupdatemarketvaluecollateralidintCollateralsController",
+    "TopicName": "demouzeyir.loan_management_module.collaterals.update_market_value_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmodulecollateralsCollateralsController",
+    "TopicName": "demouzeyir.loan_management_module.collaterals_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmodulecollateralsidintCollateralsController",
+    "TopicName": "demouzeyir.loan_management_module.collaterals_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmodulecollateralsidintCollateralsController",
+    "TopicName": "demouzeyir.loan_management_module.collaterals_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapiloanmanagementmodulecollateraltypesdeactivatecollateraltypeidintCollateralTypesController",
+    "TopicName": "demouzeyir.loan_management_module.collateral_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmodulecollateraltypesCollateralTypesController",
+    "TopicName": "demouzeyir.loan_management_module.collateral_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmodulecollateraltypesidintCollateralTypesController",
+    "TopicName": "demouzeyir.loan_management_module.collateral_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmodulecollateraltypesidintCollateralTypesController",
+    "TopicName": "demouzeyir.loan_management_module.collateral_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiloanmanagementmoduleauditlogsAuditLogsController",
+    "TopicName": "demouzeyir.loan_management_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapiloanmanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.loan_management_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapiloanmanagementmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.loan_management_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmoduletransactionscompletetransactiontransactionidlongTransactionsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transactions.complete_transaction_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmoduletransactionsfailtransactiontransactionidlongTransactionsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transactions.fail_transaction_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmoduletransactionsreversetransactiontransactionidlongTransactionsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transactions.reverse_transaction_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmoduletransactionsTransactionsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transactions_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmoduletransactionsidlongTransactionsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transactions_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmoduletransactionsidlongTransactionsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transactions_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmoduletransactiontypesdeactivatetransactiontypeidintTransactionTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmoduletransactiontypesTransactionTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmoduletransactiontypesidintTransactionTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmoduletransactiontypesidintTransactionTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmoduletransactionchannelsdeactivatetransactionchannelidintTransactionChannelsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_channels.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmoduletransactionchannelsTransactionChannelsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_channels_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmoduletransactionchannelsidintTransactionChannelsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_channels_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmoduletransactionchannelsidintTransactionChannelsController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_channels_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmodulependingtransfersapprovetransferpendingtransferidintPendingTransfersController",
+    "TopicName": "demouzeyir.transaction_processing_module.pending_transfers.approve_transfer_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmodulependingtransfersrejecttransferpendingtransferidintPendingTransfersController",
+    "TopicName": "demouzeyir.transaction_processing_module.pending_transfers.reject_transfer_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmodulependingtransferscancelscheduledtransferpendingtransferidintpendingtransferstatusPendingTransfersController",
+    "TopicName": "demouzeyir.transaction_processing_module.pending_transfers.cancel_scheduled_transfer_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmodulependingtransfersPendingTransfersController",
+    "TopicName": "demouzeyir.transaction_processing_module.pending_transfers_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmodulependingtransfersidintPendingTransfersController",
+    "TopicName": "demouzeyir.transaction_processing_module.pending_transfers_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmodulependingtransfersidintPendingTransfersController",
+    "TopicName": "demouzeyir.transaction_processing_module.pending_transfers_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmodulebeneficiariesdeactivatebeneficiaryidintBeneficiariesController",
+    "TopicName": "demouzeyir.transaction_processing_module.beneficiaries.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmodulebeneficiariesBeneficiariesController",
+    "TopicName": "demouzeyir.transaction_processing_module.beneficiaries_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmodulebeneficiariesidintBeneficiariesController",
+    "TopicName": "demouzeyir.transaction_processing_module.beneficiaries_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmodulebeneficiariesidintBeneficiariesController",
+    "TopicName": "demouzeyir.transaction_processing_module.beneficiaries_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmoduletransactionfeesTransactionFeesController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_fees_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmoduletransactionfeesidintTransactionFeesController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_fees_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmoduletransactionfeesidintTransactionFeesController",
+    "TopicName": "demouzeyir.transaction_processing_module.transaction_fees_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PatchapitransactionprocessingmodulefeetypesdeactivatefeetypeidintFeeTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.fee_types.deactivate_patch",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmodulefeetypesFeeTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.fee_types_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmodulefeetypesidintFeeTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.fee_types_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmodulefeetypesidintFeeTypesController",
+    "TopicName": "demouzeyir.transaction_processing_module.fee_types_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapitransactionprocessingmoduleauditlogsAuditLogsController",
+    "TopicName": "demouzeyir.transaction_processing_module.audit_logs_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PutapitransactionprocessingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.transaction_processing_module.audit_logs_put",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "DeleteapitransactionprocessingmoduleauditlogsidguidAuditLogsController",
+    "TopicName": "demouzeyir.transaction_processing_module.audit_logs_delete",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleportalpagedefinitionsupdateportalpagepermissionPortalPageDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.portal_page_definitions.update_portal_page_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiidentitymoduleapimethoddefinitionsupdateapipermissionApiMethodDefinitionsController",
+    "TopicName": "demouzeyir.identity_module.api_method_definitions.update_api_permission_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthregisterAuthenticationsController",
+    "TopicName": "demouzeyir.auth.register_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthloginAuthenticationsController",
+    "TopicName": "demouzeyir.auth.login_post",
+    "IsActive": true
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthvalidateAuthenticationsController",
+    "TopicName": "demouzeyir.auth.validate_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthrefreshAuthenticationsController",
+    "TopicName": "demouzeyir.auth.refresh_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresendconfirmationemailAuthenticationsController",
+    "TopicName": "demouzeyir.auth.resendconfirmationemail_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthforgotpasswordAuthenticationsController",
+    "TopicName": "demouzeyir.auth.forgotpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthresetpasswordAuthenticationsController",
+    "TopicName": "demouzeyir.auth.resetpassword_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "Postapiauthmanageuser2faAuthenticationsController",
+    "TopicName": "demouzeyir.auth.manage.user2fa_post",
+    "IsActive": false
+  },
+  {
+    "ApiMethodDefinitionKey": "PostapiauthmanageinfoAuthenticationsController",
+    "TopicName": "demouzeyir.auth.manage.info_post",
+    "IsActive": false
+  }
+]
+}

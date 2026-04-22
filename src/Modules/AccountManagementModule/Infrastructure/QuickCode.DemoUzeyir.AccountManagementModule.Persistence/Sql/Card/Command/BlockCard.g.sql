@@ -1,0 +1,4 @@
+﻿UPDATE [CARDS] 
+	SET [STATUS] = 'BLOCKED' 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_CARD_ID

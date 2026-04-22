@@ -1,0 +1,4 @@
+﻿UPDATE [CARD_TYPES] 
+	SET [IS_ACTIVE] = 0 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_CARD_TYPE_ID

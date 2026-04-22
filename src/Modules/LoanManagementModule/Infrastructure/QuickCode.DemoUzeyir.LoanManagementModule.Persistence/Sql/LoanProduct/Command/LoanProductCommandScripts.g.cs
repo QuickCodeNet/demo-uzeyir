@@ -1,0 +1,14 @@
+﻿namespace QuickCode.DemoUzeyir.LoanManagementModule.Persistence.Sql;
+public static partial class SqlScripts
+{
+    public static partial class LoanProduct
+    {
+        public static class Command
+        {
+            private const string _prefix = "LoanManagementModule.LoanProduct.Command";
+            private static string ResourceKey(string sqlName) => $"{_prefix}.{sqlName}";
+            public static string UpdateInterestRate => ResourceKey("UpdateInterestRate.g.sql");
+            public static string Deactivate => ResourceKey("Deactivate.g.sql");
+        }
+    }
+}

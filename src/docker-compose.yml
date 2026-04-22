@@ -1,0 +1,130 @@
+services:
+  demo-uzeyir-pg-data:
+    container_name: "demo-uzeyir-pg-data"
+    image: postgres:18
+
+  demo-uzeyir-sql-data:
+    container_name: "demo-uzeyir-sql-data"
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    
+  demo-uzeyir-mysql-data:
+    container_name: "demo-uzeyir-mysql-data"
+    image: mysql:8.3
+
+  demo-uzeyir-elasticsearch:
+    container_name: demo-uzeyir-elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+
+  demo-uzeyir-kibana:
+    container_name: demo-uzeyir-kibana
+    image: docker.elastic.co/kibana/kibana:8.11.0
+
+  quickcode-demo-uzeyir-gateway-api:
+    container_name: "quickcode-demo-uzeyir-gateway-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-gateway-api
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.DemoUzeyir.Gateway/Dockerfile
+
+  quickcode-demo-uzeyir-identity-module-api:
+    container_name: "quickcode-demo-uzeyir-identity-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-identity-module-api
+    build:
+      context: . 
+      dockerfile: Modules/IdentityModule/Presentation/QuickCode.DemoUzeyir.IdentityModule.Api/Dockerfile
+    depends_on:
+      - demo-uzeyir-sql-data
+      - demo-uzeyir-pg-data
+      
+
+  quickcode-demo-uzeyir-account-management-module-api:
+    container_name: "quickcode-demo-uzeyir-account-management-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-account-management-module-api
+    build:
+      context: . 
+      dockerfile: Modules/AccountManagementModule/Presentation/QuickCode.DemoUzeyir.AccountManagementModule.Api/Dockerfile
+    depends_on:
+      - demo-uzeyir-sql-data
+      - demo-uzeyir-pg-data
+      
+
+  quickcode-demo-uzeyir-customer-management-module-api:
+    container_name: "quickcode-demo-uzeyir-customer-management-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-customer-management-module-api
+    build:
+      context: . 
+      dockerfile: Modules/CustomerManagementModule/Presentation/QuickCode.DemoUzeyir.CustomerManagementModule.Api/Dockerfile
+    depends_on:
+      - demo-uzeyir-sql-data
+      - demo-uzeyir-pg-data
+      
+
+  quickcode-demo-uzeyir-loan-management-module-api:
+    container_name: "quickcode-demo-uzeyir-loan-management-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-loan-management-module-api
+    build:
+      context: . 
+      dockerfile: Modules/LoanManagementModule/Presentation/QuickCode.DemoUzeyir.LoanManagementModule.Api/Dockerfile
+    depends_on:
+      - demo-uzeyir-sql-data
+      - demo-uzeyir-pg-data
+      
+
+  quickcode-demo-uzeyir-transaction-processing-module-api:
+    container_name: "quickcode-demo-uzeyir-transaction-processing-module-api"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-transaction-processing-module-api
+    build:
+      context: . 
+      dockerfile: Modules/TransactionProcessingModule/Presentation/QuickCode.DemoUzeyir.TransactionProcessingModule.Api/Dockerfile
+    depends_on:
+      - demo-uzeyir-sql-data
+      - demo-uzeyir-pg-data
+      
+
+#[-WEB-]
+  
+  demo-uzeyir-zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    container_name: demo-uzeyir-zookeeper
+    ports:
+      - "${ZOOKEEPER_PORT:-2181}:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  demo-uzeyir-kafka:
+    image: confluentinc/cp-kafka:7.5.0
+    container_name: demo-uzeyir-kafka
+    depends_on:
+      - demo-uzeyir-zookeeper
+    ports:
+      - "${KAFKA_PORT:-9092}:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: demo-uzeyir-zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://demo-uzeyir-kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  demo-uzeyir-kafdrop:
+    image: obsidiandynamics/kafdrop:latest
+    container_name: demo-uzeyir-kafdrop
+    ports:
+      - "${KAFDROP_PORT:-9000}:9000"
+    depends_on:
+      - demo-uzeyir-kafka
+    environment:
+      KAFKA_BROKERCONNECT: demo-uzeyir-kafka:9092
+        
+  quickcode-demo-uzeyir-portal:
+    container_name: "quickcode-demo-uzeyir-portal"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-portal
+    build:
+      context: .
+      dockerfile: Presentation/QuickCode.DemoUzeyir.Portal/Dockerfile
+      
+  quickcode-demo-uzeyir-event-listener-service:
+    container_name: "quickcode-demo-uzeyir-event-listener-service"
+    image: ${DOCKER_REGISTRY-}quickcode-demo-uzeyir-event-listener-service
+    build:
+      context: .
+      dockerfile: Services/QuickCode.DemoUzeyir.EventListenerService/Dockerfile

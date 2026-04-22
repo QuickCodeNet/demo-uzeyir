@@ -1,0 +1,4 @@
+﻿UPDATE [ACCOUNTS] 
+	SET [STATUS] = 'FROZEN' 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_ACCOUNT_ID
