@@ -1,0 +1,13 @@
+.vs
+bin
+obj
+QuickCode.DemoUzeyirUzeyir.Api/bin
+QuickCode.DemoUzeyirUzeyir.Api/obj
+QuickCode.DemoUzeyirUzeyir.Portal/bin
+QuickCode.DemoUzeyirUzeyir.Portal/obj
+QuickCode.DemoUzeyirUzeyir.Web/bin
+QuickCode.DemoUzeyirUzeyir.Web/obj
+QuickCode.DemoUzeyirUzeyir.DataLayer/bin
+QuickCode.DemoUzeyirUzeyir.DataLayer/obj
+.DS_Store
+/src/.idea

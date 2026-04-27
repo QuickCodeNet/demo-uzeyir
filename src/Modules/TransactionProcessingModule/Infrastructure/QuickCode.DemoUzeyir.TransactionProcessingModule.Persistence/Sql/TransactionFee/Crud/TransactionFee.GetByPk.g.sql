@@ -1,0 +1,10 @@
+﻿SELECT
+    [ID],
+    [TRANSACTION_ID],
+    [FEE_TYPE_ID],
+    [FEE_AMOUNT],
+    [APPLIED_DATE]
+FROM [dbo].[TRANSACTION_FEES]
+WHERE
+    [ID] = @PRM_TRANSACTION_FEE_ID
+    AND [IsDeleted] = 0;

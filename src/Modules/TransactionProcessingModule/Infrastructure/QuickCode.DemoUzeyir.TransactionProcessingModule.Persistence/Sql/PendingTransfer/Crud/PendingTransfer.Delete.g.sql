@@ -1,0 +1,5 @@
+﻿UPDATE [dbo].[PENDING_TRANSFERS]
+SET [IsDeleted] = 1, [DeletedOnUtc] = SYSUTCDATETIME()
+WHERE
+    [ID] = @PRM_PENDING_TRANSFER_ID
+    AND [IsDeleted] = 0;

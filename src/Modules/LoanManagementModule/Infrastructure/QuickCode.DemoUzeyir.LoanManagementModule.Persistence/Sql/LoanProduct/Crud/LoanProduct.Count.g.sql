@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[LOAN_PRODUCTS]
+WHERE [IsDeleted] = 0;

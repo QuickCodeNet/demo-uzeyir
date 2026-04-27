@@ -1,0 +1,5 @@
+﻿UPDATE [dbo].[REPAYMENT_SCHEDULES]
+SET [IsDeleted] = 1, [DeletedOnUtc] = SYSUTCDATETIME()
+WHERE
+    [ID] = @PRM_REPAYMENT_SCHEDULE_ID
+    AND [IsDeleted] = 0;

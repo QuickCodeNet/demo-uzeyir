@@ -1,0 +1,15 @@
+﻿SELECT
+    [ID],
+    [ACCOUNT_NUMBER],
+    [CUSTOMER_ID],
+    [ACCOUNT_TYPE_ID],
+    [CURRENCY_ID],
+    [BALANCE],
+    [STATUS],
+    [OPENED_DATE],
+    [CLOSED_DATE],
+    [IS_ACTIVE]
+FROM [dbo].[ACCOUNTS]
+WHERE
+    [ID] = @PRM_ACCOUNT_ID
+    AND [IsDeleted] = 0;

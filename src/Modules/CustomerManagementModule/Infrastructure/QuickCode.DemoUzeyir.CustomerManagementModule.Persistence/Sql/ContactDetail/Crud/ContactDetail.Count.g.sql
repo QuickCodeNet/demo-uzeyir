@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[CONTACT_DETAILS]
+WHERE [IsDeleted] = 0;

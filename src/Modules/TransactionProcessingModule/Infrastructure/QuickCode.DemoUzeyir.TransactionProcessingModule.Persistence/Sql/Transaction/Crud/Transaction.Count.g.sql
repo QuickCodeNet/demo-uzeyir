@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[TRANSACTIONS]
+WHERE [IsDeleted] = 0;

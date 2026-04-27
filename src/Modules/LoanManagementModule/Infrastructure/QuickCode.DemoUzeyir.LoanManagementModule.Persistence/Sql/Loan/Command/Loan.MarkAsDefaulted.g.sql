@@ -1,0 +1,4 @@
+﻿UPDATE [LOANS] 
+	SET [STATUS] = 'DEFAULTED' 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_LOAN_ID

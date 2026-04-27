@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[DOCUMENT_TYPES]
+WHERE [IsDeleted] = 0;

@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[ACCOUNT_TYPES]
+WHERE [IsDeleted] = 0;

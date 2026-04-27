@@ -1,0 +1,12 @@
+﻿SELECT
+    [ID],
+    [LOAN_ID],
+    [SCHEDULE_ID],
+    [PAYMENT_REFERENCE],
+    [AMOUNT_PAID],
+    [PAYMENT_DATE],
+    [PAYMENT_METHOD]
+FROM [dbo].[LOAN_PAYMENTS]
+WHERE
+    [ID] = @PRM_LOAN_PAYMENT_ID
+    AND [IsDeleted] = 0;

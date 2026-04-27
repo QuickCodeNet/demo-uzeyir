@@ -1,0 +1,10 @@
+﻿SELECT
+    [ID],
+    [CODE],
+    [NAME],
+    [DIRECTION],
+    [IS_ACTIVE]
+FROM [dbo].[TRANSACTION_TYPES]
+WHERE
+    [ID] = @PRM_TRANSACTION_TYPE_ID
+    AND [IsDeleted] = 0;

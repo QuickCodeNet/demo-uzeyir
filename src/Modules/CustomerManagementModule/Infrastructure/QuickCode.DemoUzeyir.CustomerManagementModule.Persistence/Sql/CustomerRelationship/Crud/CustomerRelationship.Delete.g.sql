@@ -1,0 +1,5 @@
+﻿UPDATE [dbo].[CUSTOMER_RELATIONSHIPS]
+SET [IsDeleted] = 1, [DeletedOnUtc] = SYSUTCDATETIME()
+WHERE
+    [ID] = @PRM_CUSTOMER_RELATIONSHIP_ID
+    AND [IsDeleted] = 0;

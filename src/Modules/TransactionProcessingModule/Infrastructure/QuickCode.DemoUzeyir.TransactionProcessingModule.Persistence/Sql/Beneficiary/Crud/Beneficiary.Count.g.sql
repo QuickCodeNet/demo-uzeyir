@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[BENEFICIARIES]
+WHERE [IsDeleted] = 0;

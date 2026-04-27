@@ -1,0 +1,296 @@
+﻿{
+  "Modules": [
+    {
+      "Name": "IdentityModule",
+      "Description": "IdentityModule"
+    },
+    {
+      "Name": "AccountManagementModule",
+      "Description": "AccountManagementModule"
+    },
+    {
+      "Name": "CustomerManagementModule",
+      "Description": "CustomerManagementModule"
+    },
+    {
+      "Name": "LoanManagementModule",
+      "Description": "LoanManagementModule"
+    },
+    {
+      "Name": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule"
+    }
+  ],
+  "Models": [
+    {
+      "Name": "ApiMethodAccessGrants",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - ApiMethodAccessGrant"
+    },
+    {
+      "Name": "ApiMethodDefinitions",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - ApiMethodDefinition"
+    },
+    {
+      "Name": "AspNetRoles",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetRole"
+    },
+    {
+      "Name": "AspNetRoleClaims",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetRoleClaim"
+    },
+    {
+      "Name": "AspNetUsers",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUser"
+    },
+    {
+      "Name": "AspNetUserClaims",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserClaim"
+    },
+    {
+      "Name": "AspNetUserLogins",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserLogin"
+    },
+    {
+      "Name": "AspNetUserRoles",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserRole"
+    },
+    {
+      "Name": "AspNetUserTokens",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AspNetUserToken"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - AuditLog"
+    },
+    {
+      "Name": "ColumnTypes",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - ColumnType"
+    },
+    {
+      "Name": "KafkaEvents",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - KafkaEvent"
+    },
+    {
+      "Name": "Models",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - Model"
+    },
+    {
+      "Name": "Modules",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - Module"
+    },
+    {
+      "Name": "PermissionGroups",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PermissionGroup"
+    },
+    {
+      "Name": "PortalMenus",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PortalMenu"
+    },
+    {
+      "Name": "PortalPageAccessGrants",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PortalPageAccessGrant"
+    },
+    {
+      "Name": "PortalPageDefinitions",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - PortalPageDefinition"
+    },
+    {
+      "Name": "RefreshTokens",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - RefreshToken"
+    },
+    {
+      "Name": "TableComboboxSettings",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - TableComboboxSetting"
+    },
+    {
+      "Name": "TopicWorkflows",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule - TopicWorkflow"
+    },
+    {
+      "Name": "Accounts",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - Account"
+    },
+    {
+      "Name": "AccountHolders",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - AccountHolder"
+    },
+    {
+      "Name": "AccountStatements",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - AccountStatement"
+    },
+    {
+      "Name": "AccountTypes",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - AccountType"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - AuditLog"
+    },
+    {
+      "Name": "Cards",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - Card"
+    },
+    {
+      "Name": "CardTypes",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - CardType"
+    },
+    {
+      "Name": "Currencies",
+      "ModuleName": "AccountManagementModule",
+      "Description": "AccountManagementModule - Currency"
+    },
+    {
+      "Name": "Addresses",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - Address"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - AuditLog"
+    },
+    {
+      "Name": "ContactDetails",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - ContactDetail"
+    },
+    {
+      "Name": "Customers",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - Customer"
+    },
+    {
+      "Name": "CustomerRelationships",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - CustomerRelationship"
+    },
+    {
+      "Name": "CustomerTypes",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - CustomerType"
+    },
+    {
+      "Name": "DocumentTypes",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - DocumentType"
+    },
+    {
+      "Name": "IdentificationDocuments",
+      "ModuleName": "CustomerManagementModule",
+      "Description": "CustomerManagementModule - IdentificationDocument"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - AuditLog"
+    },
+    {
+      "Name": "Collaterals",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - Collateral"
+    },
+    {
+      "Name": "CollateralTypes",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - CollateralType"
+    },
+    {
+      "Name": "Loans",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - Loan"
+    },
+    {
+      "Name": "LoanApplications",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - LoanApplication"
+    },
+    {
+      "Name": "LoanPayments",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - LoanPayment"
+    },
+    {
+      "Name": "LoanProducts",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - LoanProduct"
+    },
+    {
+      "Name": "RepaymentSchedules",
+      "ModuleName": "LoanManagementModule",
+      "Description": "LoanManagementModule - RepaymentSchedule"
+    },
+    {
+      "Name": "AuditLogs",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - AuditLog"
+    },
+    {
+      "Name": "Beneficiaries",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - Beneficiary"
+    },
+    {
+      "Name": "FeeTypes",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - FeeType"
+    },
+    {
+      "Name": "PendingTransfers",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - PendingTransfer"
+    },
+    {
+      "Name": "Transactions",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - Transaction"
+    },
+    {
+      "Name": "TransactionChannels",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - TransactionChannel"
+    },
+    {
+      "Name": "TransactionFees",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - TransactionFee"
+    },
+    {
+      "Name": "TransactionTypes",
+      "ModuleName": "TransactionProcessingModule",
+      "Description": "TransactionProcessingModule - TransactionType"
+    },
+    {
+      "Name": "Authentications",
+      "ModuleName": "IdentityModule",
+      "Description": "IdentityModule- Authentications"
+    }
+  ]
+}

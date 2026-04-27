@@ -1,0 +1,9 @@
+﻿SELECT
+    [ID],
+    [CODE],
+    [NAME],
+    [IS_ACTIVE]
+FROM [dbo].[TRANSACTION_CHANNELS]
+WHERE
+    [ID] = @PRM_TRANSACTION_CHANNEL_ID
+    AND [IsDeleted] = 0;

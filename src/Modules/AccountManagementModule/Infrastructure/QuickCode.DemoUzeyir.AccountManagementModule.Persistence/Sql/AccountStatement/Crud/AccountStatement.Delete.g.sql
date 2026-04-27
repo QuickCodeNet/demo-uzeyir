@@ -1,0 +1,5 @@
+﻿UPDATE [dbo].[ACCOUNT_STATEMENTS]
+SET [IsDeleted] = 1, [DeletedOnUtc] = SYSUTCDATETIME()
+WHERE
+    [ID] = @PRM_ACCOUNT_STATEMENT_ID
+    AND [IsDeleted] = 0;

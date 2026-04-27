@@ -1,0 +1,14 @@
+﻿SELECT
+    [ID],
+    [CUSTOMER_NUMBER],
+    [FIRST_NAME],
+    [LAST_NAME],
+    [DATE_OF_BIRTH],
+    [CUSTOMER_TYPE_ID],
+    [STATUS],
+    [CREATED_DATE],
+    [IS_ACTIVE]
+FROM [dbo].[CUSTOMERS]
+WHERE
+    [ID] = @PRM_CUSTOMER_ID
+    AND [IsDeleted] = 0;

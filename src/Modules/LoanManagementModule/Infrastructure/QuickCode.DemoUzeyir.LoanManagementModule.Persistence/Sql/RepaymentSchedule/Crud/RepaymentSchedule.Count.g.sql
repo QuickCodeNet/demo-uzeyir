@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[REPAYMENT_SCHEDULES]
+WHERE [IsDeleted] = 0;

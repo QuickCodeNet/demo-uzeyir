@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[TRANSACTION_CHANNELS]
+WHERE [IsDeleted] = 0;

@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[TRANSACTION_TYPES]
+WHERE [IsDeleted] = 0;

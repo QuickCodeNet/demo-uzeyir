@@ -1,0 +1,5 @@
+﻿UPDATE [dbo].[LOAN_APPLICATIONS]
+SET [IsDeleted] = 1, [DeletedOnUtc] = SYSUTCDATETIME()
+WHERE
+    [ID] = @PRM_LOAN_APPLICATION_ID
+    AND [IsDeleted] = 0;

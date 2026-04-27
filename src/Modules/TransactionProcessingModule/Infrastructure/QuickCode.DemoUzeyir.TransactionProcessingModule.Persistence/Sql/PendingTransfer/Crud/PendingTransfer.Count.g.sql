@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[PENDING_TRANSFERS]
+WHERE [IsDeleted] = 0;

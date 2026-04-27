@@ -1,0 +1,4 @@
+﻿UPDATE [CARDS] 
+	SET [STATUS] = 'LOST_STOLEN', [IS_ACTIVE] = 0 
+WHERE [IsDeleted] = 0 
+	AND [ID] = @PRM_CARD_ID

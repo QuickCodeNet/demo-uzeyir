@@ -1,0 +1,13 @@
+﻿SELECT
+    [ACCOUNT_ID],
+    [CUSTOMER_ID],
+    [ROLE]
+FROM [dbo].[ACCOUNT_HOLDERS]
+WHERE
+    [ACCOUNT_ID] = @PRM_ACCOUNT_HOLDER_ACCOUNT_ID AND
+    [CUSTOMER_ID] = @PRM_ACCOUNT_HOLDER_CUSTOMER_ID
+    AND EXISTS (
+    SELECT 1
+    FROM [dbo].[ACCOUNTS] qc_sd_p
+    WHERE qc_sd_p.[ID] = [dbo].[ACCOUNT_HOLDERS].[ACCOUNT_ID]
+      AND qc_sd_p.[IsDeleted] = 0);

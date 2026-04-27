@@ -1,0 +1,4 @@
+﻿SELECT
+    COUNT(*)
+FROM [dbo].[COLLATERALS]
+WHERE [IsDeleted] = 0;

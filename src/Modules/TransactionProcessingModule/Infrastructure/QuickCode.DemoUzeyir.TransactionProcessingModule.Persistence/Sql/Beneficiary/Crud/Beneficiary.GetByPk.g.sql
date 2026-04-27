@@ -1,0 +1,14 @@
+﻿SELECT
+    [ID],
+    [CUSTOMER_ID],
+    [NICKNAME],
+    [BENEFICIARY_ACCOUNT_NUMBER],
+    [BENEFICIARY_NAME],
+    [BANK_NAME],
+    [BANK_CODE],
+    [TYPE],
+    [IS_ACTIVE]
+FROM [dbo].[BENEFICIARIES]
+WHERE
+    [ID] = @PRM_BENEFICIARY_ID
+    AND [IsDeleted] = 0;

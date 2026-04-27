@@ -1,0 +1,14 @@
+﻿SELECT
+    [ID],
+    [CODE],
+    [NAME],
+    [MIN_AMOUNT],
+    [MAX_AMOUNT],
+    [MIN_TERM_MONTHS],
+    [MAX_TERM_MONTHS],
+    [INTEREST_RATE],
+    [IS_ACTIVE]
+FROM [dbo].[LOAN_PRODUCTS]
+WHERE
+    [ID] = @PRM_LOAN_PRODUCT_ID
+    AND [IsDeleted] = 0;

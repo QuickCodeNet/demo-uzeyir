@@ -1,0 +1,5 @@
+﻿UPDATE [dbo].[TRANSACTION_CHANNELS]
+SET [IsDeleted] = 1, [DeletedOnUtc] = SYSUTCDATETIME()
+WHERE
+    [ID] = @PRM_TRANSACTION_CHANNEL_ID
+    AND [IsDeleted] = 0;

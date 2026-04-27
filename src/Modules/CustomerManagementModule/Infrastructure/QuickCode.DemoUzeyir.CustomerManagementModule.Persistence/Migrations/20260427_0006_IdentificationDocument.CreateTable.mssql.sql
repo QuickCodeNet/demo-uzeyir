@@ -1,0 +1,17 @@
+﻿IF OBJECT_ID(N'dbo.IDENTIFICATION_DOCUMENTS', N'U') IS NULL
+BEGIN
+    CREATE TABLE [dbo].[IDENTIFICATION_DOCUMENTS] (
+        [ID] int IDENTITY(1,1) NOT NULL,
+        [CUSTOMER_ID] int NOT NULL,
+        [DOCUMENT_TYPE_ID] int NOT NULL,
+        [DOCUMENT_NUMBER] nvarchar(250) NOT NULL,
+        [ISSUE_DATE] datetime2(7) NOT NULL,
+        [EXPIRY_DATE] datetime2(7) NOT NULL,
+        [ISSUING_COUNTRY] nvarchar(50) NOT NULL,
+        [DOCUMENT_URL] nvarchar(500) NOT NULL,
+        [STATUS] nvarchar(max) NOT NULL DEFAULT 'PENDING_VERIFICATION',
+        [IsDeleted] bit NOT NULL DEFAULT 0,
+        [DeletedOnUtc] datetime2(7) NULL,
+        CONSTRAINT [PK_IDENTIFICATION_DOCUMENTS] PRIMARY KEY ([ID])
+    );
+END;
