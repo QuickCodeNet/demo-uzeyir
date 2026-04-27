@@ -2,7 +2,7 @@
   "schemaSnapshotVersion": 1,
   "moduleName": "IdentityModule",
   "databaseProvider": "mssql",
-  "generatedAtUtc": "2026-04-27T11:43:19.8738433+00:00",
+  "generatedAtUtc": "2026-04-27T12:02:16.1923506+00:00",
   "tables": [
     {
       "schema": "dbo",

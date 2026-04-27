@@ -2,7 +2,7 @@
   "schemaSnapshotVersion": 1,
   "moduleName": "TransactionProcessingModule",
   "databaseProvider": "mssql",
-  "generatedAtUtc": "2026-04-27T11:43:19.8366851+00:00",
+  "generatedAtUtc": "2026-04-27T12:02:16.1674056+00:00",
   "tables": [
     {
       "schema": "dbo",

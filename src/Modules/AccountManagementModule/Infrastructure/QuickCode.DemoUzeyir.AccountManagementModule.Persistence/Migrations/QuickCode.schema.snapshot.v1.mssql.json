@@ -2,7 +2,7 @@
   "schemaSnapshotVersion": 1,
   "moduleName": "AccountManagementModule",
   "databaseProvider": "mssql",
-  "generatedAtUtc": "2026-04-27T11:43:19.8365844+00:00",
+  "generatedAtUtc": "2026-04-27T12:02:16.1674162+00:00",
   "tables": [
     {
       "schema": "dbo",
