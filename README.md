@@ -1,4 +1,4 @@
-﻿# 🚀 DemoUzeyir - Generated Microservice Platform
+# 🚀 DemoUzeyir - Generated Microservice Platform
 
 > **Ready-to-Deploy Microservices**  
 > *Generated with [QuickCode.Net](https://quickcode.net) • Deployed on Google Cloud Run • CI/CD with GitHub Actions • Containerized with Docker • Event-driven with Kafka • Monitored with Elasticsearch & Kibana*
@@ -567,4 +567,4 @@ For enterprise solutions, collaboration, or technical discussions, please reach 
 
 **Feel free to reach out or open an issue for further questions!**
 
-**Last generation Time**: [Generated on: 2026-04-27 14:43:38 UTC]
+**Last generation Time**: [Generated on: 2026-04-27 14:47:23 UTC]
