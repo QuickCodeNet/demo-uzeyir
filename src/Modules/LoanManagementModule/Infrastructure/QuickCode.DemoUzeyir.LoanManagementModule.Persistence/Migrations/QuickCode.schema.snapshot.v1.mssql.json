@@ -2,7 +2,7 @@
   "schemaSnapshotVersion": 1,
   "moduleName": "LoanManagementModule",
   "databaseProvider": "mssql",
-  "generatedAtUtc": "2026-04-27T11:33:56.4124321+00:00",
+  "generatedAtUtc": "2026-04-27T11:43:19.8365856+00:00",
   "tables": [
     {
       "schema": "dbo",

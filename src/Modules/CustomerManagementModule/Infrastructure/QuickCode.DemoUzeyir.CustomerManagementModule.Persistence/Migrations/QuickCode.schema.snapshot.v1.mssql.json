@@ -2,7 +2,7 @@
   "schemaSnapshotVersion": 1,
   "moduleName": "CustomerManagementModule",
   "databaseProvider": "mssql",
-  "generatedAtUtc": "2026-04-27T11:33:56.4103348+00:00",
+  "generatedAtUtc": "2026-04-27T11:43:19.8366207+00:00",
   "tables": [
     {
       "schema": "dbo",
